@@ -15,7 +15,7 @@ public class Config {
     private String predictionsFilename = "predictions.csv";
     private String predictionsBucketPrefix = "ciandt_projectoctopus_2018_";
     private Integer maxScorePerWorldCup = 25 * 48;
-    private String defaultPredictor = "DefaultPredictor";
+    private String defaultPredictor = "AvgPastCupPredictor";
 
     public String getDebug() {
         return debug;
